@@ -1,0 +1,56 @@
+@import "./assets/scss/_fonts.scss";
+
+body {
+    // background-size:cover;
+    // min-height: 100vh;
+}
+
+body,
+* {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: IRANSans;
+}
+
+p {
+    font-size: 14px;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.purple {
+    background-color: purple;
+}
+.completed-text{
+    text-decoration: line-through;
+}

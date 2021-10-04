@@ -1,0 +1,30 @@
+// @import './_variable';
+
+@mixin btn($background-color:#A5ABA0, $border:#A5ABA0 , $bg-hover:white, $color : white) {
+    border: none;
+    padding: 2px 15px;
+    border-radius: 5px;
+    background-color: $background-color;
+    transition: .5s;
+    border: 2px solid $background-color;
+    color: $color;
+    cursor: pointer;
+
+    font : {
+        weight: 700;
+        size: 14px;
+    }
+
+    &:hover {
+        border: 2px solid $border;
+        background-color: $bg-hover;
+        color: $border;
+    }
+}
+
+@mixin flex-position($justify-content:center, $align-items:center, $flex-direction:row) {
+    display: flex !important;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    flex-direction: $flex-direction;
+}
